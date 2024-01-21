@@ -18,6 +18,7 @@
     "match-sorter": "^6.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.21.3",
     "sort-by": "^1.2.0",
     "tailwind-merge": "^2.2.0",
