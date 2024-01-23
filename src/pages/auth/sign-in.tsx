@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
@@ -47,7 +48,12 @@ export function SignIn() {
   return (
     <>
       <Helmet title="Login" />
-      <div className="p-8">
+      <motion.div
+        className="p-8"
+        initial={{ width: 0, opacity: 0 }}
+        animate={{ width: '50%', opacity: 1 }}
+        exit={{ x: window.innerWidth, opacity: 0 }}
+      >
         <Button variant="ghost" asChild className="absolute right-8 top-8">
           <Link to="/sign-up">Novo estabelecimento</Link>
         </Button>
@@ -74,7 +80,7 @@ export function SignIn() {
             </Button>
           </form>
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }
