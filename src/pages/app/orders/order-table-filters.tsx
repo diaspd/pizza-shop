@@ -15,10 +15,10 @@ export function OrderTableFilters() {
     <form className="flex flex-col items-start gap-2 lg:flex-row lg:items-center">
       <span className="text-sm font-semibold">Filtros:</span>
       <Input placeholder="ID do pedido" className="h-8 lg:w-auto" />
-      <Input placeholder="Nome do cliente" className="h-8 lg:w-[340px]" />
+      <Input placeholder="Nome do cliente" className="h-8 lg:w-[500px]" />
 
       <Select defaultValue="all">
-        <SelectTrigger className="h-8 lg:w-[200px]">
+        <SelectTrigger className="h-8 lg:w-[250px]">
           <SelectValue />
         </SelectTrigger>
 

@@ -34,7 +34,9 @@ export function OrderTableRow() {
         </div>
       </TableCell>
 
-      <TableCell className="font-medium">Pedro Dias Rodrigues</TableCell>
+      <TableCell className="truncate font-medium">
+        Pedro Dias Rodrigues
+      </TableCell>
 
       <TableCell className="font-medium">R$ 149,00</TableCell>
 

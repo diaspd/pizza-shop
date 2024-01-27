@@ -16,7 +16,7 @@ import {
 
 // interface OrderDetailsProps {}
 
-export function OrderDetails({}: OrderDetailsProps) {
+export function OrderDetails() {
   return (
     <DialogContent>
       <DialogHeader>
