@@ -23,7 +23,7 @@ export function AccountMenu() {
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent align="end" className="w-56">
+      <DropdownMenuContent align="end" className="lg:w-56">
         <DropdownMenuLabel className="flex flex-col">
           <span>Pedro Dias</span>
           <span className="text-xs font-normal text-muted-foreground">
