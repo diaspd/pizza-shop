@@ -12,13 +12,13 @@ import {
 
 export function OrderTableFilters() {
   return (
-    <form className="flex items-center gap-2">
+    <form className="flex flex-col items-start gap-2 lg:flex-row lg:items-center">
       <span className="text-sm font-semibold">Filtros:</span>
-      <Input placeholder="ID do pedido" className="h-8 w-auto" />
-      <Input placeholder="Nome do cliente" className="h-8 w-[320px]" />
+      <Input placeholder="ID do pedido" className="h-8 lg:w-auto" />
+      <Input placeholder="Nome do cliente" className="h-8 lg:w-[340px]" />
 
       <Select defaultValue="all">
-        <SelectTrigger className="h-8 w-[180px]">
+        <SelectTrigger className="h-8 lg:w-[200px]">
           <SelectValue />
         </SelectTrigger>
 
@@ -32,15 +32,27 @@ export function OrderTableFilters() {
         </SelectContent>
       </Select>
 
-      <Button type="submit" variant="secondary" size="xs">
-        <Search className="mr-2 h-4 w-4" />
-        Filtrar resultados
-      </Button>
+      <div className="flex w-full gap-2">
+        <Button
+          type="submit"
+          variant="secondary"
+          size="xs"
+          className="w-full lg:w-auto"
+        >
+          <Search className="mr-2 h-4 w-4" />
+          Filtrar resultados
+        </Button>
 
-      <Button type="button" variant="outline" size="xs">
-        <X className="mr-2 h-4 w-4" />
-        Remover Filtros
-      </Button>
+        <Button
+          type="button"
+          variant="outline"
+          size="xs"
+          className="w-full lg:w-auto"
+        >
+          <X className="mr-2 h-4 w-4" />
+          Remover Filtros
+        </Button>
+      </div>
     </form>
   )
 }
