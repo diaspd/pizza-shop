@@ -20,7 +20,7 @@ export function Dashboard() {
           <MonthCanceledOrdersAmountCard />
         </div>
 
-        <div className="grid grid-cols-9 gap-4">
+        <div className="flex flex-col gap-4 md:grid md:grid-cols-9">
           <RevenueChart />
         </div>
       </div>
