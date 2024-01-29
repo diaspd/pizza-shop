@@ -69,10 +69,6 @@ This project was developed with the following technologies:
 ## 📄 Project
 💰 .
 
-<br></br>
-
-## 🔖 Layout
-- []()
 
 <br></br>
 
