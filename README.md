@@ -40,6 +40,13 @@ $ npm run dev
 ```
 </br>
 
+Clone the api project and access the folder.
+
+```bash
+$ git clone 
+$ cd 
+```
+
 ## Setting the app
 To connect to Stripe you will need to create a `.env.local` file and add 
 
