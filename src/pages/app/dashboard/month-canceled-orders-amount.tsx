@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 export function MonthCanceledOrdersAmountCard() {
   return (
-    <Card>
+    <Card className="transition duration-500 hover:scale-105">
       <CardHeader className="flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-base font-semibold">
           Cancelamentos (mês)
