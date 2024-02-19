@@ -13,8 +13,8 @@ import { Button } from '@/components/ui/button'
 import { Dialog, DialogTrigger } from '@/components/ui/dialog'
 import { TableCell, TableRow } from '@/components/ui/table'
 
+import { OrderStatus } from '../../../components/order-status'
 import { OrderDetails } from './order-details'
-import { OrderStatus } from './order-status'
 
 interface OrderTableRowProps {
   order: {
