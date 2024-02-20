@@ -43,8 +43,8 @@ $ npm run dev
 To connect to api you'll need to create a `.env.local` file and add 
 
 ```
-  VITE_API_URL="http://localhost:3333"
-  VITE_ENABLE_API_DELAY=true
+ VITE_API_URL="http://localhost:3333"
+ VITE_ENABLE_API_DELAY=true
 ```
 
 The app will be available on `http://localhost:5173/`
@@ -65,7 +65,6 @@ $ cd
 ```
 use ".env.local.example" as example to create your ".env.local"
 and on RESEND_API_KEY="" add a "." (dot) as value
-
 ```
 
 ## Running the Docker and APP
