@@ -38,6 +38,7 @@ $ npm install
 ```bash
 $ npm run dev
 ```
+The app will be available on `http://localhost:5173/`
 
 ## Setting the app web
 To connect to Stripe you will need to create a `.env.local` file and add 
@@ -46,8 +47,6 @@ To connect to Stripe you will need to create a `.env.local` file and add
   VITE_API_URL="http://localhost:3333"
   VITE_ENABLE_API_DELAY=true
 ```
-
-The app will be available on `http://localhost:5173/`
 
 </br>
 
