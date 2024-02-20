@@ -38,27 +38,46 @@ $ npm install
 ```bash
 $ npm run dev
 ```
+
+## Setting the app web
+To connect to api you'll need to create a `.env.local` file and add 
+
+```
+ VITE_API_URL="http://localhost:3333"
+ VITE_ENABLE_API_DELAY=true
+```
+
+The app will be available on `http://localhost:5173/`
+
 </br>
 
-Clone the api project and access the folder.
+## 🚀 Getting started (API)
+
+Clone the app api project and access the folder.
 
 ```bash
 $ git clone 
 $ cd 
 ```
 
-## Setting the app
-To connect to Stripe you will need to create a `.env.local` file and add 
+## Setting the app api
 
+add a ".env.local" file with this settings:  
 ```
-# your database URL using for example docker
+ API_BASE_URL="http://localhost:3333"
+ AUTH_REDIRECT_URL="http://localhost:5173"
 
+ DB_URL="postgresql://docker:docker@localhost:5432/pizzashop"
+
+ JWT_SECRET_KEY="my-super-secret-key"
+
+ RESEND_API_KEY="."
 ```
 
-## Running the Docker
+## Running the Docker and APP
 ```
-$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
-$ docker start mysql
+$ sudo docker compose up -D
+$ bun dev
 ```
 
 The app will be available on ``
