@@ -58,7 +58,7 @@ To connect to Stripe you will need to create a `.env.local` file and add
 ## Running the Docker and APP
 ```
 $ sudo docker compose up -D
-
+$ bun dev
 ```
 
 The app will be available on ``
