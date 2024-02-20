@@ -38,20 +38,31 @@ $ npm install
 ```bash
 $ npm run dev
 ```
+
+## Setting the app web
+To connect to Stripe you will need to create a `.env.local` file and add 
+
+```
+  VITE_API_URL="http://localhost:3333"
+  VITE_ENABLE_API_DELAY=true
+```
+
+The app will be available on `http://localhost:5173/`
+
 </br>
 
-Clone the api project and access the folder.
+Clone the app api project and access the folder.
 
 ```bash
 $ git clone 
 $ cd 
 ```
 
-## Setting the app
-To connect to Stripe you will need to create a `.env.local` file and add 
+## Setting the app api
 
 ```
-# your database URL using for example docker
+use ".env.local.example" as example to create your ".env.local"
+and on RESEND_API_KEY="" add a "." (dot) as value
 
 ```
 
