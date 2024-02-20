@@ -63,8 +63,15 @@ $ cd
 ## Setting the app api
 
 ```
-use ".env.local.example" as example to create your ".env.local"
-and on RESEND_API_KEY="" add a "." (dot) as value
+ # add a ".env.local" file with this settings:  
+ API_BASE_URL="http://localhost:3333"
+ AUTH_REDIRECT_URL="http://localhost:5173"
+
+ DB_URL="postgresql://docker:docker@localhost:5432/pizzashop"
+
+ JWT_SECRET_KEY="my-super-secret-key"
+
+ RESEND_API_KEY="."
 ```
 
 ## Running the Docker and APP
