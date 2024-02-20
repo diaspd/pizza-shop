@@ -40,7 +40,7 @@ $ npm run dev
 ```
 
 ## Setting the app web
-To connect to Stripe you will need to create a `.env.local` file and add 
+To connect to api you'll need to create a `.env.local` file and add 
 
 ```
   VITE_API_URL="http://localhost:3333"
