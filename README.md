@@ -62,8 +62,8 @@ $ cd
 
 ## Setting the app api
 
+add a ".env.local" file with this settings:  
 ```
- # add a ".env.local" file with this settings:  
  API_BASE_URL="http://localhost:3333"
  AUTH_REDIRECT_URL="http://localhost:5173"
 
