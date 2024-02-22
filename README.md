@@ -76,11 +76,11 @@ add a ".env.local" file with this settings:
 
 ## Running the Docker and APP
 ```
-bun i
-docker compose up -d
-bun migrate
-bun seed
-bun dev
+$ bun i
+$ docker compose up -d
+$ bun migrate
+$ bun seed
+$ bun dev
 ```
 
 The app will be available on ``
