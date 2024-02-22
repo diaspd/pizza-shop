@@ -56,7 +56,7 @@ The app will be available on `http://localhost:5173/`
 Clone the app api project and access the folder.
 
 ```bash
-$ git clone 
+$ git clone https://github.com/rocketseat-education/pizzashop-api
 $ cd 
 ```
 
