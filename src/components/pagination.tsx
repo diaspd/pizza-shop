@@ -71,7 +71,7 @@ export function Pagination({
             disabled={pages <= pageIndex + 1}
           >
             <ChevronsRight className="h-4 w-4" />
-            <span className="sr-only">Ultima página</span>
+            <span className="sr-only">Última página</span>
           </Button>
         </div>
       </div>
