@@ -91,6 +91,7 @@ The app will be available on ``
 
 This project was developed with the following technologies:
 <b>
+- React
 </b>
 
 </br>
