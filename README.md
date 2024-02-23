@@ -56,7 +56,7 @@ The app will be available on `http://localhost:5173/`
 Clone the app api project and access the folder.
 
 ```bash
-$ git clone 
+$ git clone https://github.com/rocketseat-education/pizzashop-api
 $ cd 
 ```
 
@@ -76,7 +76,10 @@ add a ".env.local" file with this settings:
 
 ## Running the Docker and APP
 ```
-$ sudo docker compose up -D
+$ bun i
+$ docker compose up -d
+$ bun migrate
+$ bun seed
 $ bun dev
 ```
 
@@ -88,6 +91,7 @@ The app will be available on ``
 
 This project was developed with the following technologies:
 <b>
+- React
 </b>
 
 </br>
