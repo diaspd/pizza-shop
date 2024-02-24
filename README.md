@@ -52,6 +52,8 @@ To connect to api you'll need to create a `.env.local` file and add
  VITE_API_URL="http://localhost:3333"
  VITE_ENABLE_API_DELAY=true
 ```
+To access the app on page sign-in use the email `diego.schell.f@gmail.com` and the link will be sent on server.
+
 </br>
 
 For use local API (Mocks)
@@ -60,6 +62,7 @@ add a `.env.test` file with this settings:
 VITE_API_URL="/"
 VITE_ENABLE_API_DELAY=false
 ```
+To access the app on page sign-in use the email `johndoe@example.com`
 
 The app will be available on `http://localhost:5173/`
 
