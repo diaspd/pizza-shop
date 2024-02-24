@@ -49,7 +49,7 @@ To connect to api you'll need to create a `.env.local` file and add
 </br>
 
 For use local API (Mocks)
-add a ".env.test" file with this settings:  
+add a `.env.test` file with this settings:  
 ```
 VITE_API_URL="/"
 VITE_ENABLE_API_DELAY=false
