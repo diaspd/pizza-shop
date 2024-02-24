@@ -56,8 +56,6 @@ To access the app on page sign-in use the email `diego.schell.f@gmail.com` and t
 
 </br>
 
----
-
 To use local API (Mocks)
 add a `.env.test` file with this settings:  
 ```
