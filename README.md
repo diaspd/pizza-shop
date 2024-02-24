@@ -39,6 +39,12 @@ $ npm install
 $ npm run dev
 ```
 
+## Running the test
+
+```bash
+$ npm run dev:test
+```
+
 ## Setting the app web
 To connect to api you'll need to create a `.env.local` file and add 
 
