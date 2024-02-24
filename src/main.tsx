@@ -1,11 +1,13 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOMClient from 'react-dom/client'
 
 import { enableMSW } from './api/mocks/index.ts'
 import { App } from './app.tsx'
 
+const root = document.getElementById('root') as Element
+
 enableMSW().then(() => {
-  ReactDOM.createRoot(document.getElementById('root')!).render(
+  ReactDOMClient.createRoot(root).render(
     <React.StrictMode>
       <App />
     </React.StrictMode>,
