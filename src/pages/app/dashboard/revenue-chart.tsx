@@ -50,7 +50,7 @@ export function RevenueChart() {
 
   return (
     <Card className="col-span-6">
-      <CardHeader className="flex flex-row items-center justify-between pb-8">
+      <CardHeader className="flex flex-col items-start justify-between pb-8 lg:flex-row lg:items-center">
         <div className="space-y-1">
           <CardTitle className="text-base font-medium">
             Receita no período
@@ -59,7 +59,7 @@ export function RevenueChart() {
           <CardDescription>Receita diária no período</CardDescription>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col gap-3 pt-3 lg:flex-row lg:items-center lg:pt-0">
           <Label>Período</Label>
           <DateRangePicker date={dateRange} onDateChange={setDateRange} />
         </div>
