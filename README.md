@@ -15,6 +15,9 @@
 <div align="center">
    <img alt="project img" title="image" src="./src/assets/template.png" width="100%"/>
 </div> 
+<div align="center">
+  <img alt="project gif" title="project gif" src="./assets/template.gif" width="24%" />
+</div> 
 
 </br>
 
