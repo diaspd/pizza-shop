@@ -13,7 +13,7 @@
 ---
 
 <div align="center">
-   <img alt="project img" title="image" src="" width="100%"/>
+   <img alt="project img" title="image" src="./src/assets/template.png" width="100%"/>
 </div> 
 
 </br>
