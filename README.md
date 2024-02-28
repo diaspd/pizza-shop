@@ -113,6 +113,7 @@ This project was developed with the following technologies:
 - Tanstack Query
 - Shadcn UI
 - MSW Js
+- PlayWright
 </b>
 
 </br>
