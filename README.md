@@ -112,6 +112,7 @@ This project was developed with the following technologies:
 - React
 - Tanstack Query
 - Shadcn UI
+- MSW Js
 </b>
 
 </br>
