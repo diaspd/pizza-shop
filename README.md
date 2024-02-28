@@ -111,6 +111,7 @@ This project was developed with the following technologies:
 <b>
 - React
 - Tanstack Query
+- Shadcn UI
 </b>
 
 </br>
