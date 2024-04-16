@@ -119,8 +119,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰 .
-
+💰 A Dashboard who show data in a lot of ways like graphics, text, modals and more, some new knowledge on optimistic UI, Shadcn UI, Backend req, pagination etc.
 
 <br></br>
 
